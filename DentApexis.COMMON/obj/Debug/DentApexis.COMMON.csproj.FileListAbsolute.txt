@@ -1,0 +1,5 @@
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.COMMON\bin\Debug\DentApexis.COMMON.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.COMMON\bin\Debug\DentApexis.COMMON.pdb
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.COMMON\obj\Debug\DentApexis.COMMON.csprojAssemblyReference.cache
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.COMMON\obj\Debug\DentApexis.COMMON.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.COMMON\obj\Debug\DentApexis.COMMON.pdb

@@ -1,0 +1,51 @@
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\obj\Debug\DentApexis.BLL.csprojAssemblyReference.cache
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\DentApexis.BLL.dll.config
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\DentApexis.BLL.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\DentApexis.BLL.pdb
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\DentApexis.DAL.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\DentApexis.DAL.pdb
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\DentApexis.DAL.dll.config
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\obj\Debug\DentApexis.BLL.csproj.CopyComplete
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\obj\Debug\DentApexis.BLL.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\obj\Debug\DentApexis.BLL.pdb
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\DentApexis.MODEL.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\DentApexis.MODEL.pdb
+C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.BLL\bin\Debug\DentApexis.MODEL.dll.config
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\DentApexis.BLL.dll.config
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\DentApexis.BLL.dll
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\DentApexis.BLL.pdb
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\DentApexis.DAL.dll
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\DentApexis.MODEL.dll
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\DentApexis.DAL.pdb
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\DentApexis.DAL.dll.config
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\DentApexis.MODEL.pdb
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\DentApexis.MODEL.dll.config
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\obj\Debug\DentApexis.BLL.csprojAssemblyReference.cache
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\obj\Debug\DentApexis.BLL.csproj.CopyComplete
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\obj\Debug\DentApexis.BLL.dll
+C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisTest\DentApexis.BLL\obj\Debug\DentApexis.BLL.pdb
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\DentApexis.BLL.dll.config
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\DentApexis.BLL.dll
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\DentApexis.BLL.pdb
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\DentApexis.DAL.dll
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\DentApexis.MODEL.dll
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\DentApexis.DAL.pdb
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\DentApexis.DAL.dll.config
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\DentApexis.MODEL.pdb
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\DentApexis.MODEL.dll.config
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\obj\Debug\DentApexis.BLL.csprojAssemblyReference.cache
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\obj\Debug\DentApexis.BLL.csproj.CopyComplete
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\obj\Debug\DentApexis.BLL.dll
+C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.BLL\obj\Debug\DentApexis.BLL.pdb

@@ -1,0 +1,172 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+    <!-- #header -->
+    <!-- start banner Area -->
+    <section class="banner-area relative" id="home">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row fullscreen d-flex justify-content-center align-items-center">
+                <div class="banner-content col-lg-9 col-md-12 justify-content-center">
+                    <h6 class="text-uppercase">Daha Fazla Arama! Bu Senin Dişçin</h6>
+                    <h1>
+                        Ortodonti Ünitesi
+                    </h1>
+                    <p class="text-white mx-auto">
+                        Ortodontinin asıl amacı diş, çene ve yüz bölgesini ilgilendiren bozuklukların oluşmasını önlemektir. Aynı zamanda mevcut bozuklukların ilerlemesini durdurmak, tedavi etmek ve bununla birlikte iyi bir estetik fonksiyon (ısırma, çiğneme, konuşma, gülme) sağlamayı hedefleyen uzmanlık dalıdır.
+                    </p>
+                    <a href="/Home/OnlineAppointment" class="primary-btn header-btn text-uppercase mt-10">Randevu Al</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner Area -->
+    <!-- Start open-hour Area -->
+    <section class="open-hour-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 open-hour-wrap">
+                    <h1>Çalışma Saatleri</h1>
+                    <br />
+                    <a class="open-btn" href="#"> <span class="circle"></span>Şuan An Açığız!</a>
+                    <div class="date-list d-flex flex-row justify-content-center">
+                        <ul class="colm-1">
+                            <li>Pazartesi - Cuma</li>
+                            <li>Cumartesi</li>
+                            <li>Pazar</li>
+                        </ul>
+                        <ul class="colm-2">
+                            <li><span>:</span>   10:00 - 17:00</li>
+                            <li><span>:</span>   12:00 - 03:00</li>
+                            <li><span>:</span>   kapalı</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End open-hour Area -->
+    <!-- Start service Area -->
+    <section class="service-area section-gap">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 pb-40 header-text text-center">
+                    <h1 class="pb-10">Müşterilerimize Sunduğumuz Hizmetler!</h1>
+                    <p>
+                        Sizlere daha iyi hizmet vermek adına her gün güncelleniyoruz!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-service">
+                        <img class="img-fluid" src="~/dentist/img/s1.jpg" alt="">
+                        <a href="#"><h4><b>Protezler</b></h4></a>
+                        <br />
+                        <p>
+                            Diş kayıplarından bahsedersek eğer, yıllar geçtikte vücudumuzun diğer bölgelerinde de yaşanan olumsuz sağlık belirtileri gibi, dişlerimiz tarafında da kayıplar yaşanmaktadır.
+                            Meydana gelen diş kayıpları, oluşan kaybın sayısına göre farklı protez tipleriyle giderilebilir.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-service">
+                        <img class="img-fluid" src="~/dentist/img/s3.jpg" alt="">
+                        <a href="#"><h4><b>Çene Eklemi Rahatsızlıkları</b></h4></a>
+                        <p>
+                            Özet olarak tanımlarsak, temporomandibuler eklem (TME , Alt Çene Eklemi ) ve/veya çiğneme kaslarını tutan ağrı ve fonksiyon bozukluğu sendromudur. Çene eklemi bozuklukları, günümüzde yaygın bir kesimi etkisi altına almış durumdadır. Eklem yüzeyi ve disk arasındaki uyumun bozulmasından meydana gelmektedir.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-service">
+                        <img class="img-fluid" src="~/dentist/img/s2.jpg" alt="">
+                        <a href="#"><h4><b>Endodonti (Kanal Tedavileri)</b></h4></a>
+                        <p>
+                            Endodonti, özellikle kök kanalı tedavilerinin gerçekleştirildiği ana bilim dalıdır. Günümüzde kanal tedavisi, canlı dişlerde tek seansta, canlılığını yitirmiş dişlerde ise genellikle iki seansta yapılmaktadır.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-service">
+                        <img class="img-fluid" src="~/dentist/img/s4.jpg" alt="">
+                        <a href="#"><h4><b>Oral İmplantoloji</b></h4></a>
+                        <br />
+                        <p>
+                            Diş eksiklikleri, doğal dişlere bağlı köprü protezleri veya çıkarılıp takılan hareketli protezler gibi klasik yöntemler ile tamamlandığı gibi implant destekli protezlerle de yapılabilir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End service Area -->
+    <!-- Start home-about Area -->
+    <section class="home-about-area section-gap relative">
+        <div class="container">
+            <div class="row align-items-center justify-content-end">
+                <div class="col-lg-6 no-padding home-about-right">
+                    <h1 class="text-white">
+                        Herkes <br>
+                        Aynı Dilde Gülümser :)
+                    </h1>
+                    <p>
+                        Gülümseniz için elimizden geleni yapacağımıza söz veriyoruz!
+                    </p>
+                    <div class="row no-gutters">
+                        <div class="single-services col">
+                            <span class="lnr lnr-diamond"></span>
+                            <a href="#">
+                                <h4 class="text-white">Uzman Ekip</h4>
+                            </a>
+                            <p>
+                                Uzman ekibimiz her zaman size hizmet etmeye hazır!
+                            </p>
+                        </div>
+                        <div class="single-services col">
+                            <span class="lnr lnr-phone"></span>
+                            <a href="#">
+                                <h4 class="text-white">Üstün Hizmet</h4>
+                            </a>
+                            <p>
+                                Hastanemizde hastalarımız her zaman bir telefon kadar uzakta!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End home-about Area -->
+    <!-- Start testomial Area -->
+    <!-- End testomial Area -->
+    <!-- Start team Area -->
+    <!-- End team Area -->
+    <!-- Start feature Area -->
+    <!-- End feature Area -->
+    <!-- Start appoinment Area -->
+    <!-- End appoinment Area -->
+    <!-- Start blog Area -->
+    <!-- End blog Area -->
+    <!-- start footer Area -->
+    <!-- End footer Area -->
+
+    <script src="~/dentist/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="~/dentist/js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="~/dentist/js/easing.min.js"></script>
+    <script src="~/dentist/js/hoverIntent.js"></script>
+    <script src="~/dentist/js/superfish.min.js"></script>
+    <script src="~/dentist/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/dentist/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/dentist/js/jquery-ui.js"></script>
+    <script src="~/dentist/js/owl.carousel.min.js"></script>
+    <script src="~/dentist/js/jquery.nice-select.min.js"></script>
+    <script src="~/dentist/js/mail-script.js"></script>
+    <script src="~/dentist/js/main.js"></script>
+</body>
