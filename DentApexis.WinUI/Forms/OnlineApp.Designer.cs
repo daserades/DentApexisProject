@@ -49,6 +49,7 @@
             this.ClientSize = new System.Drawing.Size(1185, 504);
             this.Controls.Add(this.dataGridView1);
             this.Name = "OnlineApp";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OnlineApp";
             this.Load += new System.EventHandler(this.OnlineApp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

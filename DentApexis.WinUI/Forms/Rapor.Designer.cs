@@ -211,6 +211,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Rapor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rapor";
             this.Load += new System.EventHandler(this.Rapor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

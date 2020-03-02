@@ -1,7 +1,6 @@
 ﻿using DentApexis.BLL.Repository;
 using DentApexis.DAL.Context;
 using DentApexis.MODEL.Entity;
-
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -52,14 +51,35 @@ namespace DentApexis.WinUI
                 btnMuh.Enabled = false;
                 btnPersonelKayit.Enabled = false;
             }
-            //if (ap.Pozisyon == "Boss")
+            #region PictureBox'a gelecek resimleri belirle
+            //if (lblDok.Text == "Duru Yıldız")
             //{
-            //    DentApexisMenu frm3 = new DentApexisMenu(1);
-
-            //    frm3.Show();
-
+            //    pictureBox1.Image = Properties.Resources.t2;
+            //}
+            //else if (lblDok.Text == "Ayşe Yılmaz")
+            //{
 
             //}
+            //else if (lblDok.Text == "Fatma Solmaz")
+            //{
+
+            //}
+            //else if (lblDok.Text == "Merve Durmaz")
+            //{
+
+            //}
+            //else if (lblDok.Text == "Aytaç Mutlu")
+            //{
+
+            //}
+            //else
+            //{
+            //    pictureBox1.Image = null;
+            //}
+            #endregion
+
+
+
 
 
 
@@ -77,6 +97,9 @@ namespace DentApexis.WinUI
 
 
         }
+
+        
+
         private void btnKaydet_Click(object sender, EventArgs e)
         {
             Doctor drs = dr.SelectAll().Where(x => x.FullName == cmbTedaviEdenDoktor.Text).FirstOrDefault();
@@ -136,15 +159,7 @@ namespace DentApexis.WinUI
            
         }
 
-        private void dataGridViewHastalar_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {

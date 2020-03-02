@@ -174,6 +174,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
             this.Name = "Muhasebe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Muhasebe";
             this.Load += new System.EventHandler(this.Muhasebe_Load);
             this.ResumeLayout(false);

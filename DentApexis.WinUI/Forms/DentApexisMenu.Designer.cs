@@ -81,17 +81,17 @@
             this.lblMenuBaslık2 = new System.Windows.Forms.Label();
             this.lblMenuBaslık = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnCikisYap = new System.Windows.Forms.Button();
             this.lblHesapDegistir = new System.Windows.Forms.Label();
             this.lblCikisYap = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnHesapDegistir = new System.Windows.Forms.Button();
-            this.pbKullaniciResmi = new System.Windows.Forms.PictureBox();
+            this.btnCikisYap = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.gbAnlasmaliKurum.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewHastalar)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbKullaniciResmi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -135,7 +135,6 @@
             this.groupBox1.Size = new System.Drawing.Size(555, 846);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button3
             // 
@@ -503,7 +502,6 @@
             this.dataGridViewHastalar.RowTemplate.Height = 24;
             this.dataGridViewHastalar.Size = new System.Drawing.Size(940, 647);
             this.dataGridViewHastalar.TabIndex = 11;
-            this.dataGridViewHastalar.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewHastalar_CellContentClick);
             // 
             // btnYenile
             // 
@@ -680,18 +678,6 @@
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             // 
-            // btnCikisYap
-            // 
-            this.btnCikisYap.BackgroundImage = global::DentApexis.WinUI.Properties.Resources._003_logout_1;
-            this.btnCikisYap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCikisYap.Location = new System.Drawing.Point(1723, 33);
-            this.btnCikisYap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnCikisYap.Name = "btnCikisYap";
-            this.btnCikisYap.Size = new System.Drawing.Size(75, 66);
-            this.btnCikisYap.TabIndex = 16;
-            this.btnCikisYap.UseVisualStyleBackColor = true;
-            this.btnCikisYap.Click += new System.EventHandler(this.btnCikisYap_Click);
-            // 
             // lblHesapDegistir
             // 
             this.lblHesapDegistir.AutoSize = true;
@@ -710,41 +696,50 @@
             this.lblCikisYap.TabIndex = 18;
             this.lblCikisYap.Text = "Çıkış Yap";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DentApexis.WinUI.Properties.Resources.t2;
+            this.pictureBox1.Location = new System.Drawing.Point(1832, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 104);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnHesapDegistir
             // 
             this.btnHesapDegistir.BackgroundImage = global::DentApexis.WinUI.Properties.Resources._004_exchange_1;
             this.btnHesapDegistir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnHesapDegistir.Location = new System.Drawing.Point(1628, 33);
+            this.btnHesapDegistir.Location = new System.Drawing.Point(1642, 33);
             this.btnHesapDegistir.Name = "btnHesapDegistir";
             this.btnHesapDegistir.Size = new System.Drawing.Size(75, 66);
             this.btnHesapDegistir.TabIndex = 19;
             this.btnHesapDegistir.UseVisualStyleBackColor = true;
             this.btnHesapDegistir.Click += new System.EventHandler(this.button4_Click);
             // 
-            // pbKullaniciResmi
+            // btnCikisYap
             // 
-            this.pbKullaniciResmi.BackgroundImage = global::DentApexis.WinUI.Properties.Resources.pexels_photo_7749091;
-            this.pbKullaniciResmi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbKullaniciResmi.Location = new System.Drawing.Point(1821, 33);
-            this.pbKullaniciResmi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pbKullaniciResmi.Name = "pbKullaniciResmi";
-            this.pbKullaniciResmi.Size = new System.Drawing.Size(69, 102);
-            this.pbKullaniciResmi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbKullaniciResmi.TabIndex = 14;
-            this.pbKullaniciResmi.TabStop = false;
-            this.pbKullaniciResmi.Click += new System.EventHandler(this.pbKullaniciResmi_Click);
+            this.btnCikisYap.BackgroundImage = global::DentApexis.WinUI.Properties.Resources._003_logout_1;
+            this.btnCikisYap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCikisYap.Location = new System.Drawing.Point(1737, 33);
+            this.btnCikisYap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCikisYap.Name = "btnCikisYap";
+            this.btnCikisYap.Size = new System.Drawing.Size(75, 66);
+            this.btnCikisYap.TabIndex = 16;
+            this.btnCikisYap.UseVisualStyleBackColor = true;
+            this.btnCikisYap.Click += new System.EventHandler(this.btnCikisYap_Click);
             // 
             // DentApexisMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1924, 750);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnHesapDegistir);
             this.Controls.Add(this.lblCikisYap);
             this.Controls.Add(this.lblHesapDegistir);
             this.Controls.Add(this.btnCikisYap);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.pbKullaniciResmi);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -762,7 +757,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbKullaniciResmi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -803,7 +798,6 @@
         private System.Windows.Forms.Label lblMenuBaslık2;
         private System.Windows.Forms.Label lblMenuBaslık;
         private System.Windows.Forms.Button btnHastaKayit;
-        private System.Windows.Forms.PictureBox pbKullaniciResmi;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnCikisYap;
         private System.Windows.Forms.Label lblHesapDegistir;
@@ -827,5 +821,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnHesapDegistir;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -26,32 +26,7 @@ namespace DentApexis.WinUI
             
             lblHata.Visible = false;
             txtSifre.PasswordChar = '*';
-            //todo başlangıçta veritabanına kaydedilecek bilgileri kodla!!
-            //AppUser au = new AppUser();
             
-
-            //if (aur.SelectAll()==null)
-            //{
-            //    au.Username = "duru";
-            //    au.Password = "yıldız";
-            //    aur.Insert(au);
-
-            //    au.Username = "ayşe";
-            //    au.Password = "yılmaz";
-            //    aur.Insert(au);
-
-            //    au.Username = "fatma";
-            //    au.Password = "solmaz";
-            //    aur.Insert(au);
-
-            //    au.Username = "merve";
-            //    au.Password = "durmaz";
-            //    aur.Insert(au);
-
-            //    au.Username = "aytaç";
-            //    au.Password = "mutlu";
-            //    aur.Insert(au);
-            //}
         }       
         private void btnGirisYap_Click(object sender, EventArgs e)
         {
@@ -64,7 +39,7 @@ namespace DentApexis.WinUI
             {
                 DentApexisMenu menu = new DentApexisMenu(user.ID);
                 menu.Show();
-                //this.Hide();
+                this.Hide();
 
 
             }

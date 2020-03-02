@@ -87,12 +87,12 @@
             this.groupBox1.Controls.Add(this.rdbStaff);
             this.groupBox1.Controls.Add(this.rdbDoctor);
             this.groupBox1.Controls.Add(this.rdbMuh);
-            this.groupBox1.Location = new System.Drawing.Point(368, 32);
+            this.groupBox1.Location = new System.Drawing.Point(286, 67);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(524, 409);
+            this.groupBox1.Size = new System.Drawing.Size(430, 409);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Personel Kayıt!";
+            this.groupBox1.Text = "Personel Kayıt";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button1
@@ -117,14 +117,14 @@
             this.txtPassword.Location = new System.Drawing.Point(132, 154);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(237, 22);
-            this.txtPassword.TabIndex = 2;
+            this.txtPassword.TabIndex = 3;
             // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(132, 56);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(237, 22);
-            this.txtName.TabIndex = 2;
+            this.txtName.TabIndex = 1;
             // 
             // label4
             // 
@@ -157,9 +157,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1204, 533);
+            this.ClientSize = new System.Drawing.Size(1035, 533);
             this.Controls.Add(this.groupBox1);
             this.Name = "AddStaff";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddStaff";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
