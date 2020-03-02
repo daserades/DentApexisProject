@@ -18,9 +18,9 @@ namespace DentApexis.WinUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Login());
+            Application.Run(new Login());
             //Application.Run(new AddStaff());
-            Application.Run(new DentApexisMenu(1));
+            //Application.Run(new DentApexisMenu(1));
 
         }
     }
