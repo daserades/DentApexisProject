@@ -45,13 +45,14 @@
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lblOdenme = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblDok
             // 
             this.lblDok.AutoSize = true;
-            this.lblDok.Location = new System.Drawing.Point(1010, 12);
+            this.lblDok.Location = new System.Drawing.Point(1153, 15);
             this.lblDok.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDok.Name = "lblDok";
             this.lblDok.Size = new System.Drawing.Size(0, 17);
@@ -60,7 +61,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(921, 12);
+            this.label14.Location = new System.Drawing.Point(1064, 15);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(81, 17);
@@ -71,7 +72,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(425, 388);
+            this.listBox1.Location = new System.Drawing.Point(498, 253);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(134, 260);
             this.listBox1.TabIndex = 16;
@@ -80,14 +81,14 @@
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(652, 388);
+            this.listBox2.Location = new System.Drawing.Point(725, 253);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(156, 260);
             this.listBox2.TabIndex = 16;
             // 
             // btnEkle
             // 
-            this.btnEkle.Location = new System.Drawing.Point(578, 429);
+            this.btnEkle.Location = new System.Drawing.Point(651, 294);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(56, 57);
             this.btnEkle.TabIndex = 17;
@@ -97,7 +98,7 @@
             // 
             // btnCikar
             // 
-            this.btnCikar.Location = new System.Drawing.Point(578, 516);
+            this.btnCikar.Location = new System.Drawing.Point(651, 381);
             this.btnCikar.Name = "btnCikar";
             this.btnCikar.Size = new System.Drawing.Size(56, 57);
             this.btnCikar.TabIndex = 17;
@@ -107,7 +108,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(425, 12);
+            this.textBox1.Location = new System.Drawing.Point(578, 18);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(232, 22);
             this.textBox1.TabIndex = 18;
@@ -115,7 +116,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(842, 412);
+            this.richTextBox1.Location = new System.Drawing.Point(910, 228);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(341, 115);
             this.richTextBox1.TabIndex = 19;
@@ -132,7 +133,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(636, 667);
+            this.label1.Location = new System.Drawing.Point(575, 667);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 17);
             this.label1.TabIndex = 20;
@@ -140,7 +141,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(842, 539);
+            this.button1.Location = new System.Drawing.Point(910, 355);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(341, 44);
             this.button1.TabIndex = 21;
@@ -151,7 +152,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(839, 388);
+            this.label2.Location = new System.Drawing.Point(907, 204);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 17);
             this.label2.TabIndex = 20;
@@ -160,7 +161,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(422, 330);
+            this.label3.Location = new System.Drawing.Point(495, 195);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 17);
             this.label3.TabIndex = 20;
@@ -169,7 +170,7 @@
             // lblHastaAd
             // 
             this.lblHastaAd.AutoSize = true;
-            this.lblHastaAd.Location = new System.Drawing.Point(501, 330);
+            this.lblHastaAd.Location = new System.Drawing.Point(574, 195);
             this.lblHastaAd.Name = "lblHastaAd";
             this.lblHastaAd.Size = new System.Drawing.Size(0, 17);
             this.lblHastaAd.TabIndex = 20;
@@ -178,7 +179,7 @@
             // 
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 16;
-            this.listBox3.Location = new System.Drawing.Point(425, 58);
+            this.listBox3.Location = new System.Drawing.Point(578, 64);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(419, 116);
             this.listBox3.TabIndex = 23;
@@ -187,7 +188,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(896, 79);
+            this.label4.Location = new System.Drawing.Point(1039, 82);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 17);
             this.label4.TabIndex = 24;
@@ -196,27 +197,28 @@
             // lblOdenme
             // 
             this.lblOdenme.AutoSize = true;
-            this.lblOdenme.Location = new System.Drawing.Point(990, 80);
+            this.lblOdenme.Location = new System.Drawing.Point(1133, 83);
             this.lblOdenme.Name = "lblOdenme";
-            this.lblOdenme.Size = new System.Drawing.Size(0, 17);
+            this.lblOdenme.Size = new System.Drawing.Size(73, 17);
             this.lblOdenme.TabIndex = 24;
+            this.lblOdenme.Text = "Ödenmedi";
             // 
-            // button2
+            // dataGridView1
             // 
-            this.button2.Location = new System.Drawing.Point(31, 33);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(194, 45);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "Rapor Sayfası";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(26, 43);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(447, 496);
+            this.dataGridView1.TabIndex = 25;
             // 
             // DoktorTedavi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1263, 780);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblDok);
             this.Controls.Add(this.lblOdenme);
             this.Controls.Add(this.label4);
@@ -237,6 +239,7 @@
             this.Name = "DoktorTedavi";
             this.Text = "DoktorTedavi";
             this.Load += new System.EventHandler(this.DoktorTedavi_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,6 +263,6 @@
         private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblOdenme;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

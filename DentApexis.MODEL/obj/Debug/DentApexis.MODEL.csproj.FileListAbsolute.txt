@@ -31,3 +31,14 @@ C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis
 C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.dll
 C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\bin\Debug\DentApexis.MODEL.dll.config
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\bin\Debug\DentApexis.MODEL.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\bin\Debug\DentApexis.MODEL.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\bin\Debug\EntityFramework.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\bin\Debug\EntityFramework.xml
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.csproj.CopyComplete
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.pdb

@@ -24,5 +24,12 @@ namespace DentApexis.BLL.Repository
             db.Set<Doctor>().Add(Item);
             db.SaveChanges();
         }
+
+        public Doctor SelectByFullName(string itemFullname)
+        {
+            Doctor appUser = new Doctor();
+            appUser = SelectAll().Where(x => x.FullName == itemFullname).FirstOrDefault();
+            return appUser;
+        }
     }
 }

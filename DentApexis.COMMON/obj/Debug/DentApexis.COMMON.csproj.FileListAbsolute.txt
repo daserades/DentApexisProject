@@ -3,3 +3,8 @@ C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.COMMON\bin\Debug\DentApe
 C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.COMMON\obj\Debug\DentApexis.COMMON.csprojAssemblyReference.cache
 C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.COMMON\obj\Debug\DentApexis.COMMON.dll
 C:\Users\Oğuz KÖSE\source\repos\DentApexis\DentApexis.COMMON\obj\Debug\DentApexis.COMMON.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.COMMON\bin\Debug\DentApexis.COMMON.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.COMMON\bin\Debug\DentApexis.COMMON.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.COMMON\obj\Debug\DentApexis.COMMON.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.COMMON\obj\Debug\DentApexis.COMMON.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.COMMON\obj\Debug\DentApexis.COMMON.pdb

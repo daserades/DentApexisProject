@@ -23,6 +23,13 @@ namespace DentApexis.WinUI.Forms
 
         private void Rapor_Load(object sender, EventArgs e)
         {
+            //DateTime dtm = DateTime.Now;
+            //if (dtm.Day != 1)
+            //{
+            //    button1.Enabled = false;
+            //}
+
+
             nupMal.Maximum = 2131312;
             mupFat.Maximum = 2131312;
             var result = aur.SelectAll();
@@ -50,21 +57,42 @@ namespace DentApexis.WinUI.Forms
             int dateTime = DateTime.Now.Month;
             int premonth = DateTime.Now.AddMonths(-1).Month;
             var lisofDoctor = dr.SelectAll();
-            decimal totalturnover = 0;
+            decimal totalto = 0;
             foreach (var item in lisofDoctor)
             {
-                foreach (var items in tr.SelectAll().Where(x => x.Doctor.ID == item.ID&&x.CreatedDate.Month<=dateTime&&x.CreatedDate.Month>=premonth))
-                {
-                    totalturnover += items.TotalPayment;
-                }
+                totalto += item.AmountOfTurnover;
 
-                if (totalturnover > 24000)
+
+                if (item.AmountOfTurnover > 24000)
                 {
-                    item.Salary = (totalturnover*25)/100;
-                    
+
+                    item.Salary = ((item.AmountOfTurnover  * 25) / 100);
+                    item.AmountOfTurnover = 0;
                     dr.Update(item);
                 }
+                //decimal totalturnover = 0;
+                //foreach (var items in tr.SelectAll().Where(x => x.Doctor.ID == item.ID&&x.isActive==true&&x.CreatedDate.Month<=dateTime&&x.CreatedDate.Month>=premonth))
+                //{
+                //    totalturnover += items.TotalPayment;
+                //}
+
+                //if (totalturnover > 24000||item.AmountOfTurnover>24000)
+                //{
+
+                //    item.Salary= item.Salary+((totalturnover*25)/100);
+                //    MessageBox.Show(item.Salary.ToString());
+
+                //    dr.Update(item);
+                //}
             }
+            lblTotalGelir.Text = totalto.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Muhasebe frm2 = new Muhasebe();
+            frm2.Show();
+            this.Hide();
         }
     }
 }
