@@ -39,12 +39,6 @@ namespace DentApexis.WinUI.Forms
 
             //dr.Insert(doctor);
             //dr.Insert(doctors);
-
-            var result2 = pr.SelectAll();
-            foreach (var item in result2)
-            {
-                listBox1.Items.Add(item.FullName);
-            }
             #region DoktorListesi
             var result = dr.SelectAll();
             List<string> dlist = new List<string>();
@@ -56,6 +50,13 @@ namespace DentApexis.WinUI.Forms
             cmbDoctorList.DataSource = dlist;
 
             #endregion
+            listBox1.Items.Clear();
+            var result2 = pr.SelectAll().Where(x=>x.TreatingDoctor==cmbDoctorList.SelectedItem.ToString());
+            foreach (var item in result2)
+            {
+                listBox1.Items.Add(item.FullName);
+            }
+            
             #region GünlerinListesi
 
             //List<string> dts = new List<string>();
@@ -89,6 +90,7 @@ namespace DentApexis.WinUI.Forms
                 newApp.PatientSurname = appSurName;
                 newApp.TreatingDoctor = cmbDoctorList.SelectedItem.ToString();
                 newApp.AppointmentDay = dateTimePicker1.Value.ToString("dd,MM,yyyy");
+                
                 newApp.AppointmentHour = cmbHourlist.SelectedItem.ToString();
                 newApp.Patient = pr.SelectAll().Where(x => x.FullName == newApp.PatientName+" "+ newApp.PatientSurname).FirstOrDefault();
                 ar.Insert(newApp);
@@ -134,9 +136,19 @@ namespace DentApexis.WinUI.Forms
         private void txtHastaAd_TextChanged(object sender, EventArgs e)
         {
             
-            var result = pr.SelectAll().Where(x => x.FullName.Contains(txtHastaAd.Text));
+            var result = pr.SelectAll().Where(x => x.FullName.Contains(txtHastaAd.Text)&&x.TreatingDoctor == cmbDoctorList.SelectedItem.ToString());
             listBox1.Items.Clear();
             foreach (var item in result)
+            {
+                listBox1.Items.Add(item.FullName);
+            }
+        }
+
+        private void cmbDoctorList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            var result2 = pr.SelectAll().Where(x => x.TreatingDoctor == cmbDoctorList.SelectedItem.ToString());
+            foreach (var item in result2)
             {
                 listBox1.Items.Add(item.FullName);
             }

@@ -732,6 +732,7 @@
             this.pbKullaniciResmi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbKullaniciResmi.TabIndex = 14;
             this.pbKullaniciResmi.TabStop = false;
+            this.pbKullaniciResmi.Click += new System.EventHandler(this.pbKullaniciResmi_Click);
             // 
             // DentApexisMenu
             // 

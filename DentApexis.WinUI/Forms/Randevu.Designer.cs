@@ -52,7 +52,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(471, 34);
+            this.label1.Location = new System.Drawing.Point(471, 87);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 17);
@@ -62,7 +62,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(472, 96);
+            this.label2.Location = new System.Drawing.Point(472, 149);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 17);
@@ -72,7 +72,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(471, 175);
+            this.label3.Location = new System.Drawing.Point(471, 47);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 17);
@@ -175,15 +175,16 @@
             // cmbDoctorList
             // 
             this.cmbDoctorList.FormattingEnabled = true;
-            this.cmbDoctorList.Location = new System.Drawing.Point(607, 171);
+            this.cmbDoctorList.Location = new System.Drawing.Point(607, 43);
             this.cmbDoctorList.Margin = new System.Windows.Forms.Padding(4);
             this.cmbDoctorList.Name = "cmbDoctorList";
             this.cmbDoctorList.Size = new System.Drawing.Size(259, 24);
             this.cmbDoctorList.TabIndex = 15;
+            this.cmbDoctorList.SelectedIndexChanged += new System.EventHandler(this.cmbDoctorList_SelectedIndexChanged);
             // 
             // txtHastaAd
             // 
-            this.txtHastaAd.Location = new System.Drawing.Point(607, 34);
+            this.txtHastaAd.Location = new System.Drawing.Point(607, 87);
             this.txtHastaAd.Margin = new System.Windows.Forms.Padding(4);
             this.txtHastaAd.Name = "txtHastaAd";
             this.txtHastaAd.Size = new System.Drawing.Size(259, 22);
@@ -232,7 +233,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(607, 79);
+            this.listBox1.Location = new System.Drawing.Point(607, 132);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(259, 84);
             this.listBox1.TabIndex = 19;

@@ -54,10 +54,7 @@
     <Compile Include="Entity\Appointment.cs" />
     <Compile Include="Entity\AppUser.cs" />
     <Compile Include="Entity\BaseEntity.cs" />
-    <Compile Include="Entity\ContractWorkplace.cs" />
     <Compile Include="Entity\Doctor.cs" />
-    <Compile Include="Entity\Expense.cs" />
-    <Compile Include="Entity\Income.cs" />
     <Compile Include="Entity\OnlineAppointment.cs" />
     <Compile Include="Entity\Patient.cs" />
     <Compile Include="Entity\Treatment.cs" />

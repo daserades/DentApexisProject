@@ -1,4 +1,5 @@
 ﻿using DentApexis.BLL.Repository;
+using DentApexis.MODEL.Entity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,8 @@ namespace DentApexis.WinUI.Forms
     {
         TreatmentRepository tr = new TreatmentRepository();
         DoctorRepository dr = new DoctorRepository();
+        PatientRepository pr = new PatientRepository();
+
         public Muhasebe()
         {
             InitializeComponent();
@@ -50,7 +53,33 @@ namespace DentApexis.WinUI.Forms
             {
                 lblHastaAd.Text = listBox1.SelectedItem.ToString();
                 var a = tr.SelectAll().Where(x => x.PatientFullName == lblHastaAd.Text).FirstOrDefault().TotalPayment;
+                
+
+                lblSigortaAd.Text = pr.SelectAll().Where(x => x.FullName == lblHastaAd.Text).FirstOrDefault().ContractWorkplace;
+                switch (lblSigortaAd.Text)
+                {
+                    case "USA Bank":
+                        lblSigorta.Text = "10";
+                        a = (a *90)/100;
+                        break;
+                    case "Money Bank":
+                        lblSigorta.Text = "15";
+                        a = (a * 85) / 100;
+                        break;
+                    case "Demir İnşaat":
+                        lblSigorta.Text = "12.5";
+                        a = (a * (875/10)) / 100;
+                        break;
+                    default:
+                        lblSigorta.Text ="Yok";
+                        break;
+
+                }
+
+                
+
                 lblOdenecek.Text = a.ToString();
+
             }
             catch (Exception)
             {
@@ -64,18 +93,34 @@ namespace DentApexis.WinUI.Forms
             try
             {
                 var b = tr.SelectAll().Where(x => x.PatientFullName == lblHastaAd.Text).FirstOrDefault();
+                var patient = pr.SelectAll().Where(x => x.FullName == lblHastaAd.Text).FirstOrDefault();
+
                 b.isActive = true;
                 tr.Update(b);
 
                 
 
+                
+                Doctor drss = new Doctor();
+                drss = dr.SelectByFullName(patient.TreatingDoctor);
+                drss.AmountOfTurnover += b.TotalPayment;
+                dr.Update(drss);
+
                 MessageBox.Show("İşlem başarılı");
+
+
             }
             catch (Exception)
             {
 
                 MessageBox.Show("İşlem başarısız");
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Rapor frm2 = new Rapor();
+            frm2.Show();
         }
     }
 }

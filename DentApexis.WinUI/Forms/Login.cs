@@ -64,7 +64,7 @@ namespace DentApexis.WinUI
             {
                 DentApexisMenu menu = new DentApexisMenu(user.ID);
                 menu.Show();
-                //Hide();
+                //this.Hide();
 
 
             }

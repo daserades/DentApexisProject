@@ -17,16 +17,15 @@ namespace DentApexis.DAL.Context
 
             Database.Connection.ConnectionString = "server=.;database=DentApexis;uid=sa;pwd=123";
             //Database.Connection.ConnectionString = "server=MBTERYA017\\SQLSERVER;database=DentApexis;uid=sa;pwd=BkBk123!";
+            //Database.Connection.ConnectionString = "server=DESKTOP-UM9QASS\\SQLEXPRESS1;database=DentApexis;uid=sa;pwd=123";
 
 
         }
 
         public DbSet<Appointment> Appointments { get; set; }
       
-        public DbSet<ContractWorkplace> ContractWorkplaces { get; set; }
         public DbSet<Doctor> Doctors { get; set; }
-        public DbSet<Expense> Expenses { get; set; }
-        public DbSet<Income> Incomes { get; set; }
+        
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Treatment> Treatments { get; set; }
         public DbSet<TreatmentPlan> TreatmentPlans { get; set; }
@@ -48,14 +47,7 @@ namespace DentApexis.DAL.Context
 
 
 
-            //ContractWorkplace
-
-            modelBuilder.Entity<ContractWorkplace>().Property(x => x.Name).HasMaxLength(20);
-            modelBuilder.Entity<ContractWorkplace>().Property(x => x.DiscountAmount).HasColumnType("decimal").IsOptional();
-            modelBuilder.Entity<ContractWorkplace>().Property(x => x.CreatedDate).HasColumnType("datetime");
-            modelBuilder.Entity<ContractWorkplace>().Property(x => x.CreatedDate).HasColumnType("datetime").IsOptional();
-
-            //Clinic
+          
 
 
 
@@ -69,25 +61,7 @@ namespace DentApexis.DAL.Context
             modelBuilder.Entity<Doctor>().Property(x => x.AmountOfTurnover).HasColumnType("money").IsOptional();
             modelBuilder.Entity<Doctor>().Property(x => x.CreatedDate).HasColumnType("datetime").IsOptional();
 
-            //Employee
-
         
-
-            //Expense
-            modelBuilder.Entity<Expense>().Property(x => x.EmployeeSalary).HasColumnType("money").IsOptional();
-            modelBuilder.Entity<Expense>().Property(x => x.StaffDoctorSalary).HasColumnType("money").IsOptional();
-            modelBuilder.Entity<Expense>().Property(x => x.Invoice).HasColumnType("money").IsOptional();
-            modelBuilder.Entity<Expense>().Property(x => x.MaterialExpense).HasColumnType("money").IsOptional();
-            modelBuilder.Entity<Expense>().Property(x => x.Invoice).HasColumnType("money").IsOptional();
-            modelBuilder.Entity<Expense>().Property(x => x.InsurancePremium).HasColumnType("money").IsOptional();
-            modelBuilder.Entity<Expense>().Property(x => x.ExpensePeriod).IsOptional();
-            modelBuilder.Entity<Expense>().Property(x => x.CreatedDate).HasColumnType("datetime").IsOptional();
-
-            //Income
-
-            modelBuilder.Entity<Income>().Property(x => x.Payment).HasColumnType("money").IsOptional();
-            modelBuilder.Entity<Income>().Property(x => x.IncomePeriod).IsOptional();
-            modelBuilder.Entity<Income>().Property(x => x.CreatedDate).HasColumnType("datetime").IsOptional();
 
             //Patient
 

@@ -40,3 +40,17 @@ C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis
 C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.MAP\obj\Debug\DentApexis.MAP.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.MAP\obj\Debug\DentApexis.MAP.dll
 C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexisTest-master\DentApexis.MAP\obj\Debug\DentApexis.MAP.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\DentApexis.MAP.dll.config
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\DentApexis.MAP.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\DentApexis.MAP.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\DentApexis.MODEL.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\EntityFramework.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\DentApexis.MODEL.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\DentApexis.MODEL.dll.config
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\EntityFramework.xml
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\obj\Debug\DentApexis.MAP.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\obj\Debug\DentApexis.MAP.csproj.CopyComplete
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\obj\Debug\DentApexis.MAP.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.MAP\obj\Debug\DentApexis.MAP.pdb

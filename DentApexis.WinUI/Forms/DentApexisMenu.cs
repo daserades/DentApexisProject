@@ -114,6 +114,7 @@ namespace DentApexis.WinUI
            
             p.InfectiousDisease = txtBulasiciHastalik.Text;
             p.TreatingDoctor = drs.FullName;
+            p.Doctor = dr.SelectByFullName(drs.FullName);
             p.Reference = txtReferans.Text;          
             p.Description = txtAciklama.Text;
             p.Adress = txtAdres.Text;
@@ -122,6 +123,7 @@ namespace DentApexis.WinUI
 
 
             pr.Insert(p);
+            MessageBox.Show("İşlem Başarıyla Tamamlanmıştır.");
             
         
         }
@@ -148,7 +150,7 @@ namespace DentApexis.WinUI
         {
             Muhasebe frm2 = new Muhasebe();
             frm2.Show();
-            this.Hide();
+          
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -168,7 +170,7 @@ namespace DentApexis.WinUI
             
             DoktorTedavi doktorTedavi = new DoktorTedavi(lblDok.Text);
             doktorTedavi.Show();
-            this.Hide();
+            
         }
 
         private void btnHastaKayit_Click(object sender, EventArgs e)
@@ -185,7 +187,7 @@ namespace DentApexis.WinUI
         {
             Rapor frm2 = new Rapor();
             frm2.Show();
-            this.Hide();
+            
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -217,6 +219,11 @@ namespace DentApexis.WinUI
             Login login = new Login();
             login.Show();
             this.Hide();
+        }
+
+        private void pbKullaniciResmi_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

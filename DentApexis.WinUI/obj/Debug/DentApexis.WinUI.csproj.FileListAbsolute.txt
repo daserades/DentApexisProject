@@ -110,3 +110,34 @@ C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexis.WinUI\obj\Debug\DentA
 C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.exe
 C:\Users\Oğuz KÖSE\Desktop\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.WinUI.exe.config
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.WinUI.exe
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.WinUI.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.BLL.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.DAL.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.MODEL.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\EntityFramework.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.BLL.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.BLL.dll.config
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.DAL.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.DAL.dll.config
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.MODEL.pdb
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\DentApexis.MODEL.dll.config
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\EntityFramework.xml
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Forms.AddStaff.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Forms.DoktorHasta.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Forms.DoktorTedavi.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Login.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.DentApexisMenu.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Forms.Muhasebe.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Forms.OnlineApp.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Forms.Randevu.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Forms.Rapor.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Properties.Resources.resources
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.csproj.CopyComplete
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.exe
+C:\Users\User\Source\Repos\oguzkose\DentApexisProject\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.pdb

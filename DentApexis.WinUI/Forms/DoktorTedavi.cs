@@ -30,7 +30,24 @@ namespace DentApexis.WinUI.Forms
         private void DoktorTedavi_Load(object sender, EventArgs e)
         {
 
-            var result = ar.SelectAll().Where(x => x.Doctor.ID == aur.SelectByFullName(label14.Text).ID).ToList();
+
+
+            var result = ar.SelectAll().Where(x => x.Doctor.ID == dr.SelectByFullName(label14.Text).ID).ToList();
+            var liste = from item in result
+                        select new
+                        {
+                            HastaAdveSoyad = item.FullName,
+                            RandevuGün = item.AppointmentDay,
+                            RandevuSaat = item.AppointmentHour
+
+
+                        };
+            dataGridView1.DataSource = liste.ToList(); 
+
+
+
+
+
             foreach (var item in result)
             {
                 listBox3.Items.Add(item.FullName);
@@ -99,7 +116,9 @@ namespace DentApexis.WinUI.Forms
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            var ap = ar.SelectAll().Where(x => x.FullName.Contains(textBox1.Text)).ToList();
+            var listss = ar.SelectAll().Where(x => x.Doctor.ID == dr.SelectByFullName(label14.Text).ID).ToList();
+            
+            var ap = listss.Where(x => x.FullName.Contains(textBox1.Text)).ToList();
             listBox3.Items.Clear();
             foreach (var item in ap)
             {
@@ -152,7 +171,7 @@ namespace DentApexis.WinUI.Forms
                 tr.Description = richTextBox1.Text;
 
                 tr.isActive = false;
-                tr.Doctor = dr.SelectById(aur.SelectByFullName(label14.Text).ID);
+                tr.Doctor = dr.SelectByFullName(label14.Text);
                 trs.Insert(tr);
                 MessageBox.Show("İşlem Başarılı");
             }
@@ -165,8 +184,7 @@ namespace DentApexis.WinUI.Forms
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            Rapor frm2 = new Rapor();
-            frm2.Show();
+            
         }
     }
 }
