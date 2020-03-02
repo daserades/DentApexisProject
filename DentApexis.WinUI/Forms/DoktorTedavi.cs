@@ -107,13 +107,6 @@ namespace DentApexis.WinUI.Forms
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-           
-            
-
-        }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             var listss = ar.SelectAll().Where(x => x.Doctor.ID == dr.SelectByFullName(label14.Text).ID).ToList();
@@ -185,6 +178,11 @@ namespace DentApexis.WinUI.Forms
         private void button2_Click_1(object sender, EventArgs e)
         {
             
+        }
+
+        private void btnHesapDegistir_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
