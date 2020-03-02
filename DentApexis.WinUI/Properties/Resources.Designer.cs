@@ -73,6 +73,16 @@ namespace DentApexis.WinUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _003_logout_1 {
+            get {
+                object obj = ResourceManager.GetObject("003-logout-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _004_exchange_1 {
             get {
                 object obj = ResourceManager.GetObject("004_exchange_1", resourceCulture);

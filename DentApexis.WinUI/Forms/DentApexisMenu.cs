@@ -52,13 +52,14 @@ namespace DentApexis.WinUI
                 btnMuh.Enabled = false;
                 btnPersonelKayit.Enabled = false;
             }
-            if (ap.Pozisyon == "Boss")
-            {
-                DentApexisMenu frm3 = new DentApexisMenu(1);
+            //if (ap.Pozisyon == "Boss")
+            //{
+            //    DentApexisMenu frm3 = new DentApexisMenu(1);
 
-                frm3.Show();
+            //    frm3.Show();
 
-            }
+
+            //}
 
 
 

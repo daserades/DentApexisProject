@@ -84,8 +84,8 @@
             this.btnCikisYap = new System.Windows.Forms.Button();
             this.lblHesapDegistir = new System.Windows.Forms.Label();
             this.lblCikisYap = new System.Windows.Forms.Label();
+            this.btnHesapDegistir = new System.Windows.Forms.Button();
             this.pbKullaniciResmi = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.gbAnlasmaliKurum.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewHastalar)).BeginInit();
@@ -539,11 +539,10 @@
             // 
             // lblDok
             // 
-            this.lblDok.AutoSize = true;
-            this.lblDok.Location = new System.Drawing.Point(191, 162);
+            this.lblDok.Location = new System.Drawing.Point(174, 162);
             this.lblDok.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDok.Name = "lblDok";
-            this.lblDok.Size = new System.Drawing.Size(0, 17);
+            this.lblDok.Size = new System.Drawing.Size(141, 17);
             this.lblDok.TabIndex = 19;
             // 
             // button2
@@ -683,12 +682,13 @@
             // 
             // btnCikisYap
             // 
+            this.btnCikisYap.BackgroundImage = global::DentApexis.WinUI.Properties.Resources._003_logout_1;
+            this.btnCikisYap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCikisYap.Location = new System.Drawing.Point(1723, 33);
             this.btnCikisYap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCikisYap.Name = "btnCikisYap";
             this.btnCikisYap.Size = new System.Drawing.Size(75, 66);
             this.btnCikisYap.TabIndex = 16;
-            this.btnCikisYap.Text = "button8";
             this.btnCikisYap.UseVisualStyleBackColor = true;
             this.btnCikisYap.Click += new System.EventHandler(this.btnCikisYap_Click);
             // 
@@ -710,8 +710,20 @@
             this.lblCikisYap.TabIndex = 18;
             this.lblCikisYap.Text = "Çıkış Yap";
             // 
+            // btnHesapDegistir
+            // 
+            this.btnHesapDegistir.BackgroundImage = global::DentApexis.WinUI.Properties.Resources._004_exchange_1;
+            this.btnHesapDegistir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnHesapDegistir.Location = new System.Drawing.Point(1628, 33);
+            this.btnHesapDegistir.Name = "btnHesapDegistir";
+            this.btnHesapDegistir.Size = new System.Drawing.Size(75, 66);
+            this.btnHesapDegistir.TabIndex = 19;
+            this.btnHesapDegistir.UseVisualStyleBackColor = true;
+            this.btnHesapDegistir.Click += new System.EventHandler(this.button4_Click);
+            // 
             // pbKullaniciResmi
             // 
+            this.pbKullaniciResmi.BackgroundImage = global::DentApexis.WinUI.Properties.Resources.pexels_photo_7749091;
             this.pbKullaniciResmi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbKullaniciResmi.Location = new System.Drawing.Point(1821, 33);
             this.pbKullaniciResmi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -721,22 +733,12 @@
             this.pbKullaniciResmi.TabIndex = 14;
             this.pbKullaniciResmi.TabStop = false;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(1457, 33);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 19;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // DentApexisMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1770, 750);
-            this.Controls.Add(this.button4);
+            this.ClientSize = new System.Drawing.Size(1924, 750);
+            this.Controls.Add(this.btnHesapDegistir);
             this.Controls.Add(this.lblCikisYap);
             this.Controls.Add(this.lblHesapDegistir);
             this.Controls.Add(this.btnCikisYap);
@@ -823,6 +825,6 @@
         private System.Windows.Forms.Button btnDoktor;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnHesapDegistir;
     }
 }

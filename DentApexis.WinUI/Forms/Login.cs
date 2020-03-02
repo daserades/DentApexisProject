@@ -20,16 +20,14 @@ namespace DentApexis.WinUI
         {
             InitializeComponent();
         }
-        AppUserRepository aur = new AppUserRepository();
-        //DentApexisDBContext db = DbTool.Instance;
-
+        AppUserRepository aur = new AppUserRepository();       
         private void Login_Load(object sender, EventArgs e)
         {
             
             lblHata.Visible = false;
             txtSifre.PasswordChar = '*';
             //todo başlangıçta veritabanına kaydedilecek bilgileri kodla!!
-            AppUser au = new AppUser();
+            //AppUser au = new AppUser();
             
 
             //if (aur.SelectAll()==null)
@@ -54,13 +52,7 @@ namespace DentApexis.WinUI
             //    au.Password = "mutlu";
             //    aur.Insert(au);
             //}
-
-
-
-
-
-        }
-        //DentApexisDBContext db = new DentApexisDBContext();
+        }       
         private void btnGirisYap_Click(object sender, EventArgs e)
         {
             var a = aur.SelectAll().Any(x => x.Username == txtKullaniciAdi.Text && x.Password == txtSifre.Text);
@@ -72,7 +64,7 @@ namespace DentApexis.WinUI
             {
                 DentApexisMenu menu = new DentApexisMenu(user.ID);
                 menu.Show();
-                Hide();
+                //Hide();
 
 
             }
