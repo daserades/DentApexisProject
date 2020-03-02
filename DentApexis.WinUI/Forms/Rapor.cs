@@ -23,11 +23,11 @@ namespace DentApexis.WinUI.Forms
 
         private void Rapor_Load(object sender, EventArgs e)
         {
-            DateTime dtm = DateTime.Now;
-            if (dtm.Day != 1)
-            {
-                button1.Enabled = false;
-            }
+            //DateTime dtm = DateTime.Now;
+            //if (dtm.Day != 1)
+            //{
+            //    button1.Enabled = false;
+            //}
 
 
             nupMal.Maximum = 2131312;
@@ -57,20 +57,20 @@ namespace DentApexis.WinUI.Forms
             int dateTime = DateTime.Now.Month;
             int premonth = DateTime.Now.AddMonths(-1).Month;
             var lisofDoctor = dr.SelectAll();
-            decimal totalturnover = 0;
+            decimal totalto = 0;
             foreach (var item in lisofDoctor)
             {
-
+                totalto += item.AmountOfTurnover;
 
 
                 if (item.AmountOfTurnover > 24000)
                 {
 
                     item.Salary = ((item.AmountOfTurnover  * 25) / 100);
-                    MessageBox.Show(item.Salary.ToString());
-
+                    item.AmountOfTurnover = 0;
                     dr.Update(item);
                 }
+                //decimal totalturnover = 0;
                 //foreach (var items in tr.SelectAll().Where(x => x.Doctor.ID == item.ID&&x.isActive==true&&x.CreatedDate.Month<=dateTime&&x.CreatedDate.Month>=premonth))
                 //{
                 //    totalturnover += items.TotalPayment;
@@ -85,6 +85,7 @@ namespace DentApexis.WinUI.Forms
                 //    dr.Update(item);
                 //}
             }
+            lblTotalGelir.Text = totalto.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)

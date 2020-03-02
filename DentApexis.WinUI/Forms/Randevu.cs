@@ -129,7 +129,6 @@ namespace DentApexis.WinUI.Forms
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            MessageBox.Show(dateTimePicker1.Value.ToString("dd,MM,yyyy"));
             formYenile();
         }
 
