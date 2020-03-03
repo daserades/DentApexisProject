@@ -1,4 +1,5 @@
 ﻿using DentApexis.BLL.Repository;
+using DentApexis.DAL.Context;
 using DentApexis.MODEL.Entity;
 using System;
 using System.Collections.Generic;
@@ -29,6 +30,7 @@ namespace DentApexis.WinUI.Forms
 
         private void DoktorTedavi_Load(object sender, EventArgs e)
         {
+
 
 
 
@@ -181,6 +183,11 @@ namespace DentApexis.WinUI.Forms
         }
 
         private void btnHesapDegistir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHastaKayit_Click(object sender, EventArgs e)
         {
 
         }
