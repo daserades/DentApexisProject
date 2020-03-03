@@ -15,8 +15,8 @@ namespace DentApexis.DAL.Context
         {
 
 
-            Database.Connection.ConnectionString = "server=.;database=DentApexis;uid=sa;pwd=123";
-            //Database.Connection.ConnectionString = "server=MBTERYA017\\SQLSERVER;database=DentApexis;uid=sa;pwd=BkBk123!";
+            //Database.Connection.ConnectionString = "server=.;database=DentApexis;uid=sa;pwd=123";
+            Database.Connection.ConnectionString = "server=MBTERYA017\\SQLSERVER;database=DentApexis;uid=sa;pwd=BkBk123!";
             //Database.Connection.ConnectionString = "server=DESKTOP-UM9QASS\\SQLEXPRESS1;database=DentApexis;uid=sa;pwd=123";
 
 
