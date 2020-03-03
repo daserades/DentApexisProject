@@ -50,6 +50,8 @@ namespace DentApexis.WinUI
                 btnDoktor.Enabled = false;
                 btnMuh.Enabled = false;
                 btnPersonelKayit.Enabled = false;
+                btnRapor.Enabled = false;
+                
             }
             #region PictureBox'a gelecek resimleri belirle
             //if (lblDok.Text == "Duru Yıldız")
@@ -147,7 +149,8 @@ namespace DentApexis.WinUI
 
             pr.Insert(p);
             MessageBox.Show("İşlem Başarıyla Tamamlanmıştır.");
-            
+
+            dataGridViewHastalar.DataSource = pr.SelectAll();
         
         }
 
@@ -239,6 +242,24 @@ namespace DentApexis.WinUI
         private void pbKullaniciResmi_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnTemizle_Click(object sender, EventArgs e)
+        {
+            foreach (Control item in groupBox1.Controls)
+            {
+                if(item is TextBox||item is RichTextBox)
+                {
+                    item.Text = string.Empty;
+                }
+                
+            }
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            AddTreatmenplan atp = new AddTreatmenplan();
+            atp.Show();
         }
     }
 }

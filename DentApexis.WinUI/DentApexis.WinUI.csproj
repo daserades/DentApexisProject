@@ -62,6 +62,12 @@
     <Compile Include="Forms\AddStaff.Designer.cs">
       <DependentUpon>AddStaff.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AddTreatmenplan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddTreatmenplan.Designer.cs">
+      <DependentUpon>AddTreatmenplan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DoktorHasta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AddStaff.resx">
       <DependentUpon>AddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddTreatmenplan.resx">
+      <DependentUpon>AddTreatmenplan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\DoktorHasta.resx">
       <DependentUpon>DoktorHasta.cs</DependentUpon>
