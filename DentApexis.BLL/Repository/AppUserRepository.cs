@@ -17,7 +17,7 @@ namespace DentApexis.BLL.Repository
             db = DbTool.Instance;
 
         }
-        public void Insert(AppUser Item)
+        public new void Insert(AppUser Item)
         {
             Item.FullName = Item.Name + " " + Item.LastName;
             db.Set<AppUser>().Add(Item);

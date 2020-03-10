@@ -82,3 +82,17 @@ C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisProject\DentApexis.DAL\obj\D
 C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisProject\DentApexis.DAL\obj\Debug\DentApexis.DAL.csproj.CopyComplete
 C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisProject\DentApexis.DAL\obj\Debug\DentApexis.DAL.dll
 C:\Users\Berk.Coven\Source\Repos\oguzkose\DentApexisProject\DentApexis.DAL\obj\Debug\DentApexis.DAL.pdb
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\DentApexis.DAL.dll.config
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\DentApexis.DAL.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\DentApexis.DAL.pdb
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\DentApexis.MODEL.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\DentApexis.MODEL.pdb
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\DentApexis.MODEL.dll.config
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\obj\Debug\DentApexis.DAL.csprojAssemblyReference.cache
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\obj\Debug\DentApexis.DAL.csproj.CopyComplete
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\obj\Debug\DentApexis.DAL.dll
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\obj\Debug\DentApexis.DAL.pdb

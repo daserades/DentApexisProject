@@ -121,17 +121,17 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(617, 283);
+            this.label2.Location = new System.Drawing.Point(583, 283);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 17);
+            this.label2.Size = new System.Drawing.Size(167, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Sigorta İndirim:";
+            this.label2.Text = "A. Kurum İndirim yüzdesi:";
             this.label2.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblSigorta
             // 
             this.lblSigorta.AutoSize = true;
-            this.lblSigorta.Location = new System.Drawing.Point(767, 283);
+            this.lblSigorta.Location = new System.Drawing.Point(785, 283);
             this.lblSigorta.Name = "lblSigorta";
             this.lblSigorta.Size = new System.Drawing.Size(0, 17);
             this.lblSigorta.TabIndex = 2;

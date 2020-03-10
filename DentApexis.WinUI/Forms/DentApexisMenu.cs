@@ -27,7 +27,7 @@ namespace DentApexis.WinUI
             lblDok.Text = aur.SelectById(userid).Name+" "+ aur.SelectById(userid).LastName;
 
         }
-        //DentApexisDBContext db = Tool.Instance;
+        
         
 
         private void DentApexisMenu_Load(object sender, EventArgs e)
@@ -44,6 +44,7 @@ namespace DentApexis.WinUI
             {
                 Muhasebe frm2 = new Muhasebe();
                 frm2.Show();
+                this.Hide();
             }
             if (ap.Pozisyon == "Personel")
             {
@@ -51,34 +52,11 @@ namespace DentApexis.WinUI
                 btnMuh.Enabled = false;
                 btnPersonelKayit.Enabled = false;
                 btnRapor.Enabled = false;
+                btnTedaviEkle.Enabled = false;
+
                 
             }
-            #region PictureBox'a gelecek resimleri belirle
-            //if (lblDok.Text == "Duru Yıldız")
-            //{
-            //    pictureBox1.Image = Properties.Resources.t2;
-            //}
-            //else if (lblDok.Text == "Ayşe Yılmaz")
-            //{
-
-            //}
-            //else if (lblDok.Text == "Fatma Solmaz")
-            //{
-
-            //}
-            //else if (lblDok.Text == "Merve Durmaz")
-            //{
-
-            //}
-            //else if (lblDok.Text == "Aytaç Mutlu")
-            //{
-
-            //}
-            //else
-            //{
-            //    pictureBox1.Image = null;
-            //}
-            #endregion
+            
 
 
 
@@ -158,7 +136,7 @@ namespace DentApexis.WinUI
         {
             dataGridViewHastalar.DataSource = pr.SelectAll();
             
-            //ToDo:jjhg
+            //ToDo:
            
         }
 
@@ -190,16 +168,8 @@ namespace DentApexis.WinUI
             doktorTedavi.Show();
             
         }
-
-        private void btnHastaKayit_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
+    
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -220,29 +190,9 @@ namespace DentApexis.WinUI
             frm2.Show();
         }
 
-        private void btnCikisYap_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+       
 
-        private void btnHesapDegistir_Click(object sender, EventArgs e)
-        {
-            Login login = new Login();
-            login.Show();
-            this.Hide();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Login login = new Login();
-            login.Show();
-            this.Hide();
-        }
-
-        private void pbKullaniciResmi_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void btnTemizle_Click(object sender, EventArgs e)
         {
@@ -256,7 +206,7 @@ namespace DentApexis.WinUI
             }
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
+        private void btnTedaviEkle_Click(object sender, EventArgs e)
         {
             AddTreatmenplan atp = new AddTreatmenplan();
             atp.Show();

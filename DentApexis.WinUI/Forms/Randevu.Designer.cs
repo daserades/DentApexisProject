@@ -46,87 +46,78 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(100, 102);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(75, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 17);
+            this.label1.Size = new System.Drawing.Size(92, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hasta İsim Arama:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(101, 164);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(76, 133);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 17);
+            this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Hasta :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(100, 62);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(75, 50);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 17);
+            this.label3.Size = new System.Drawing.Size(74, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Doktor Seçim:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(100, 255);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(75, 207);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 17);
+            this.label4.Size = new System.Drawing.Size(88, 13);
             this.label4.TabIndex = 0;
             this.label4.Text = "Apointment Day :";
             // 
             // cmbDoctorList
             // 
             this.cmbDoctorList.FormattingEnabled = true;
-            this.cmbDoctorList.Location = new System.Drawing.Point(236, 58);
-            this.cmbDoctorList.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbDoctorList.Location = new System.Drawing.Point(177, 47);
             this.cmbDoctorList.Name = "cmbDoctorList";
-            this.cmbDoctorList.Size = new System.Drawing.Size(259, 24);
+            this.cmbDoctorList.Size = new System.Drawing.Size(195, 21);
             this.cmbDoctorList.TabIndex = 15;
             this.cmbDoctorList.SelectedIndexChanged += new System.EventHandler(this.cmbDoctorList_SelectedIndexChanged);
             // 
             // txtHastaAd
             // 
-            this.txtHastaAd.Location = new System.Drawing.Point(236, 102);
-            this.txtHastaAd.Margin = new System.Windows.Forms.Padding(4);
+            this.txtHastaAd.Location = new System.Drawing.Point(177, 83);
             this.txtHastaAd.Name = "txtHastaAd";
-            this.txtHastaAd.Size = new System.Drawing.Size(259, 22);
+            this.txtHastaAd.Size = new System.Drawing.Size(195, 20);
             this.txtHastaAd.TabIndex = 16;
             this.txtHastaAd.TextChanged += new System.EventHandler(this.txtHastaAd_TextChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(100, 328);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(75, 266);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(122, 17);
+            this.label7.Size = new System.Drawing.Size(92, 13);
             this.label7.TabIndex = 0;
             this.label7.Text = "Apointment Hour :";
             // 
             // cmbHourlist
             // 
             this.cmbHourlist.FormattingEnabled = true;
-            this.cmbHourlist.Location = new System.Drawing.Point(236, 324);
-            this.cmbHourlist.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbHourlist.Location = new System.Drawing.Point(177, 263);
             this.cmbHourlist.Name = "cmbHourlist";
-            this.cmbHourlist.Size = new System.Drawing.Size(259, 24);
+            this.cmbHourlist.Size = new System.Drawing.Size(195, 21);
             this.cmbHourlist.TabIndex = 15;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(104, 399);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(78, 324);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(392, 49);
+            this.button2.Size = new System.Drawing.Size(294, 40);
             this.button2.TabIndex = 17;
             this.button2.Text = "Randevu Kayıt!";
             this.button2.UseVisualStyleBackColor = true;
@@ -134,20 +125,22 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(236, 255);
+            this.dateTimePicker1.Location = new System.Drawing.Point(177, 207);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(259, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(195, 20);
             this.dateTimePicker1.TabIndex = 18;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(236, 147);
+            this.listBox1.Location = new System.Drawing.Point(177, 119);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(259, 84);
+            this.listBox1.Size = new System.Drawing.Size(195, 69);
             this.listBox1.TabIndex = 19;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // groupBox1
             // 
@@ -162,20 +155,21 @@
             this.groupBox1.Controls.Add(this.cmbDoctorList);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.cmbHourlist);
-            this.groupBox1.Location = new System.Drawing.Point(243, 43);
+            this.groupBox1.Location = new System.Drawing.Point(182, 35);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(575, 504);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(431, 410);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Randevu";
             // 
             // Randevu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1040, 602);
+            this.ClientSize = new System.Drawing.Size(780, 489);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Randevu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Randevu";

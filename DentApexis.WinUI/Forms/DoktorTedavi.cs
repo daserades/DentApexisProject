@@ -25,7 +25,7 @@ namespace DentApexis.WinUI.Forms
         public DoktorTedavi(string fullname)
         {
             InitializeComponent();
-            label14.Text = aur.SelectByFullName(fullname).FullName;
+            label14.Text = dr.SelectByFullName(fullname).FullName;
         }
 
         private void DoktorTedavi_Load(object sender, EventArgs e)
@@ -33,28 +33,36 @@ namespace DentApexis.WinUI.Forms
 
 
 
-
-            var result = ar.SelectAll().Where(x => x.Doctor.ID == dr.SelectByFullName(label14.Text).ID).ToList();
-            var liste = from item in result
-                        select new
-                        {
-                            HastaAdveSoyad = item.FullName,
-                            RandevuGün = item.AppointmentDay,
-                            RandevuSaat = item.AppointmentHour
-
-
-                        };
-            dataGridView1.DataSource = liste.ToList(); 
-
-
-
-
-
-            foreach (var item in result)
+            try
             {
-                listBox3.Items.Add(item.FullName);
-            }
 
+                var result = ar.SelectAll().Where(x => x.Doctor.ID == dr.SelectByFullName(label14.Text).ID).ToList();
+                var liste = from item in result
+                            select new
+                            {
+                                HastaAdveSoyad = item.FullName,
+                                RandevuGün = item.AppointmentDay,
+                                RandevuSaat = item.AppointmentHour
+
+
+                            };
+                dataGridView1.DataSource = liste.ToList();
+
+
+
+
+
+                foreach (var item in result)
+                {
+                    listBox3.Items.Add(item.FullName);
+                }
+
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Aktif randevunuz bulunmamaktadır.");
+            }
             var listoftp = tpr.SelectAll();
             foreach (var item in listoftp)
             {
@@ -69,7 +77,7 @@ namespace DentApexis.WinUI.Forms
             try
             {
                 listBox2.Items.Add(listBox1.SelectedItem);
-                //listBox1.Items.Remove(listBox1.SelectedItem);
+                
             }
             catch (Exception)
             {

@@ -97,7 +97,7 @@ namespace DentApexis.WinUI.Forms
                 MessageBox.Show("İşlem Başarılı");
                 formYenile();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 MessageBox.Show("Lütfen Bütün Alanları Doldurunuz");
@@ -114,7 +114,7 @@ namespace DentApexis.WinUI.Forms
             var applist = ar.SelectAll().Where(x => x.AppointmentDay == dateTimePicker1.Value.ToString("dd,MM,yyyy")).ToList();
             for (int i = 9; i < 19; i++)
             {
-                if (applist.Where(x => x.AppointmentHour == i.ToString()).FirstOrDefault() == null)
+                if (applist.Where(x => x.AppointmentHour == i.ToString()&&x.TreatingDoctor== cmbDoctorList.SelectedItem.ToString()).FirstOrDefault() == null)
                 {
                     saatliste.Add(i.ToString());
                 }
@@ -151,6 +151,11 @@ namespace DentApexis.WinUI.Forms
             {
                 listBox1.Items.Add(item.FullName);
             }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            formYenile();
         }
     }
 }

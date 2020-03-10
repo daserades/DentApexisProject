@@ -18,7 +18,7 @@ namespace DentApexis.BLL.Repository
 
         }
 
-        public void Insert(Doctor Item)
+        public new void Insert(Doctor Item)
         {
             Item.FullName = Item.Name + " " + Item.Surname;
             db.Set<Doctor>().Add(Item);

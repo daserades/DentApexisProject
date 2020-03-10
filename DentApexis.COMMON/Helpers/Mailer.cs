@@ -12,8 +12,8 @@ namespace DentApexis.COMMON.Helpers
     {
         public static void Send(string reciever,string body,string subject)
         {
-            string sender = "movierent123@gmail.com";
-            string password = @"movie123+%&";
+            string sender = "mailadresi@mail.com";
+            string password = @"buraya şifre gelecek";
             MailAddress senderEmail = new MailAddress(sender);
             MailAddress receiverEmail = new MailAddress(reciever);
 

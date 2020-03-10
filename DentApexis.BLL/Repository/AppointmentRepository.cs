@@ -17,7 +17,7 @@ namespace DentApexis.BLL.Repository
             db = DbTool.Instance;
 
         }
-        public void Insert(Appointment Item)
+        public new void Insert(Appointment Item)
         {
             Item.FullName = Item.PatientName + " " + Item.PatientSurname;
             db.Set<Appointment>().Add(Item);

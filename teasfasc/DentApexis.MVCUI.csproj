@@ -173,6 +173,8 @@
     <Content Include="dentist\elements.html" />
     <Content Include="dentist\fonts\fontawesome-webfont.svg" />
     <Content Include="dentist\fonts\Linearicons-Free.svg" />
+    <Content Include="dentist\img\36470930-woman-doctor-portrait.jpg" />
+    <Content Include="dentist\img\53426466_s.jpg" />
     <Content Include="dentist\img\about-img.jpg" />
     <Content Include="dentist\img\appoinment-img.jpg" />
     <Content Include="dentist\img\b1.jpg" />
