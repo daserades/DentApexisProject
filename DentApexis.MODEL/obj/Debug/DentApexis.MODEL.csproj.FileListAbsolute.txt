@@ -60,7 +60,6 @@ C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\bin\Debug\
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\bin\Debug\EntityFramework.xml
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.csprojAssemblyReference.cache
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.csproj.CoreCompileInputs.cache
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.dll
