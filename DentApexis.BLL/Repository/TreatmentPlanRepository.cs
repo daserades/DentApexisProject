@@ -9,5 +9,6 @@ namespace DentApexis.BLL.Repository
 {
     public class TreatmentPlanRepository:BaseRepository<TreatmentPlan>
     {
+
     }
 }

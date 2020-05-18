@@ -33,32 +33,17 @@ namespace DentApexis.DAL.Context
         public DbSet<OnlineAppointment> OnlineAppointments { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            //Appointment
+        {          
             modelBuilder.Entity<Appointment>().Property(x => x.PatientName).HasMaxLength(20).IsOptional();
             modelBuilder.Entity<Appointment>().Property(x => x.PatientSurname).HasMaxLength(20);
             modelBuilder.Entity<Appointment>().Property(x => x.CreatedDate).HasColumnType("datetime").IsOptional();
-
-            //AppUser
-
             modelBuilder.Entity<AppUser>().Property(x => x.CreatedDate).HasColumnType("datetime").IsOptional();
             modelBuilder.Entity<AppUser>().Property(x => x.Salary).IsOptional();
-
-
-
-            //Doctor
-
             modelBuilder.Entity<Doctor>().Property(x => x.Name).HasMaxLength(20);
             modelBuilder.Entity<Doctor>().Property(x => x.Surname).HasMaxLength(20);
             modelBuilder.Entity<Doctor>().Property(x => x.Salary).HasColumnType("money").IsOptional();
             modelBuilder.Entity<Doctor>().Property(x => x.AmountOfTurnover).HasColumnType("money").IsOptional();
             modelBuilder.Entity<Doctor>().Property(x => x.CreatedDate).HasColumnType("datetime").IsOptional();
-
-        
-
-            //Patient
-
-            
             modelBuilder.Entity<Patient>().Property(x => x.IdentityNumber).HasMaxLength(11).IsOptional();
             modelBuilder.Entity<Patient>().Property(x => x.PhoneNumber).HasMaxLength(11).IsOptional();
             modelBuilder.Entity<Patient>().Property(x => x.BloodGroup).HasMaxLength(20).IsOptional();
@@ -73,8 +58,6 @@ namespace DentApexis.DAL.Context
             modelBuilder.Entity<Patient>().Property(x => x.Description).HasMaxLength(500).IsOptional();
             modelBuilder.Entity<Patient>().Property(x => x.ContractWorkplace).IsOptional();           
             modelBuilder.Entity<Patient>().Property(x => x.isActive).IsOptional();
-
-
             
             base.OnModelCreating(modelBuilder);
         }

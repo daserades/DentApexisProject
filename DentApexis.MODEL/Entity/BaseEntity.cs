@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace DentApexis.MODEL.Entity
 {
     public abstract class BaseEntity
-    {
-        
-       
+    {              
         public DateTime CreatedDate { get; set; }
         public BaseEntity()
         {

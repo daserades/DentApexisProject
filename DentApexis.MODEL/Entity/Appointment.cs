@@ -16,13 +16,8 @@ namespace DentApexis.MODEL.Entity
         public string PatientName { get; set; }
         public string PatientSurname { get; set; }
         public string FullName { get; set; }
-        public string TreatingDoctor { get; set; }// tedavi eden/edecek doktor
-        //Foreign Key
-        //public int DoctorID { get; set; }
-        //Bir randevunun bir hastası olur
-        //Bir randevunun bir doktoru olur
-
-
+        public string TreatingDoctor { get; set; }
+        
         //Mapping
         public Patient Patient { get; set; }
         public Doctor Doctor { get; set; }

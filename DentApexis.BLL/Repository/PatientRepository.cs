@@ -12,8 +12,6 @@ using DentApexis.MODEL.Entity;
 namespace DentApexis.BLL.Repository
 {
     public class PatientRepository : BaseRepository<Patient>
-    {
-        
-        
+    {               
     }
 }
