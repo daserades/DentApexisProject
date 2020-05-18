@@ -202,6 +202,7 @@ C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.WinUI\obj\Debug\
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Forms.Rapor.resources
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.Properties.Resources.resources
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.csproj.GenerateResource.cache
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.csproj.CoreCompileInputs.cache
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.exe
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.WinUI\obj\Debug\DentApexis.WinUI.pdb

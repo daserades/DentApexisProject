@@ -79,6 +79,7 @@ C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MAP\bin\Debug\De
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MAP\bin\Debug\EntityFramework.xml
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MAP\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MAP\obj\Debug\DentApexis.MAP.csprojAssemblyReference.cache
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MAP\obj\Debug\DentApexis.MAP.csproj.CoreCompileInputs.cache
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MAP\obj\Debug\DentApexis.MAP.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MAP\obj\Debug\DentApexis.MAP.dll
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MAP\obj\Debug\DentApexis.MAP.pdb

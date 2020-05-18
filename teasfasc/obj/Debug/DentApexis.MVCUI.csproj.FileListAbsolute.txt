@@ -562,6 +562,7 @@ C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\teasfasc\bin\Microsoft.Code
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\teasfasc\bin\DentApexis.DAL.pdb
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\teasfasc\bin\DentApexis.DAL.dll.config
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\teasfasc\obj\Debug\DentApexis.MVCUI.csprojAssemblyReference.cache
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\teasfasc\obj\Debug\DentApexis.MVCUI.csproj.CoreCompileInputs.cache
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\teasfasc\obj\Debug\DentApexis.MVCUI.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\teasfasc\obj\Debug\teasfasc.dll
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\teasfasc\obj\Debug\teasfasc.pdb

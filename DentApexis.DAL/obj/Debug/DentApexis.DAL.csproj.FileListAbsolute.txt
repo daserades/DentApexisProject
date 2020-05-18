@@ -93,6 +93,7 @@ C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\De
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\EntityFramework.xml
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\obj\Debug\DentApexis.DAL.csprojAssemblyReference.cache
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\obj\Debug\DentApexis.DAL.csproj.CoreCompileInputs.cache
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\obj\Debug\DentApexis.DAL.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\obj\Debug\DentApexis.DAL.dll
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.DAL\obj\Debug\DentApexis.DAL.pdb

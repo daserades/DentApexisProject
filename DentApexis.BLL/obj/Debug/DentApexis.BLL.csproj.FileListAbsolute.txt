@@ -114,6 +114,7 @@ C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.BLL\bin\Debug\De
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.BLL\bin\Debug\EntityFramework.xml
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.BLL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.BLL\obj\Debug\DentApexis.BLL.csprojAssemblyReference.cache
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.BLL\obj\Debug\DentApexis.BLL.csproj.CoreCompileInputs.cache
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.BLL\obj\Debug\DentApexis.BLL.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.BLL\obj\Debug\DentApexis.BLL.dll
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.BLL\obj\Debug\DentApexis.BLL.pdb

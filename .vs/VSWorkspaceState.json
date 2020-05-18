@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DentApexis.WinUI",
+    "\\DentApexis.WinUI\\Forms"
   ],
+  "SelectedNode": "\\DentApexis.WinUI\\Forms\\AddStaff.cs",
   "PreviewInSolutionExplorer": false
 }
