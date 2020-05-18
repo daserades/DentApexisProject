@@ -1,3 +1,14 @@
+--------------------------------------------Proje Açýklamasý----------------------------------------------------------
+-Bu proje Microsoft .NET Framework Kütüphanesi kýllanýlarak OOP standartlarýnda  MVC, Katmanlý mimari ve CodeFirst kullanarak yazýlmýþtýr.
+-Diþ Polikliniði için yazýlan Windows Form Application (WFA) projesi olup Hasta Kayýtlarý,Tedavi planlarý,muhasebe vb iþ süreçlerini kapsar ve database'de süreçlere iliþkin datalarý saklar.
+-WFA ' ya ek olarak Kliniðin tanýtýmýnýn yapýldýðý ve hastalarýn randevu talep edebildiði bir Web Application ' da dahil edilmiþtir.
+
+
+
+
+
+
+
 Proje için örnek database yüklenmiþtir.
 
 örnek database kullanýlmamasý durumunda;
