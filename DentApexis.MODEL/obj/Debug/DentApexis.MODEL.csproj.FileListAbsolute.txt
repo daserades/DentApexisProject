@@ -64,3 +64,4 @@ C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\obj\Debug\
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.csproj.CopyComplete
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.dll
 C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.pdb
+C:\Users\Oğuz KÖSE\source\repos\DentApexis Project\DentApexis.MODEL\obj\Debug\DentApexis.MODEL.csprojAssemblyReference.cache
